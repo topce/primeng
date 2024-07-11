@@ -1,4 +1,27 @@
 # Changelog
+## [17.18.4](https://github.com/primefaces/primeng/tree/17.18.4) (2024-07-11)
+[Full Changelog](https://github.com/primefaces/primeng/compare/17.18.3...17.18.4)
+
+**Fixed bugs:**
+- Inline style not compliant with strict CSP [\#15998](https://github.com/primefaces/primeng/issues/15998)
+- Cascade Select clicking a few times causes the component to freeze [\#15869](https://github.com/primefaces/primeng/issues/15869)
+- listbox filter is not working if options is bind to a string array [\#14454](https://github.com/primefaces/primeng/issues/14454)
+- AutoComplete: Increased drop-down height on first search when using virtual scroll [\#15647](https://github.com/primefaces/primeng/issues/15647)
+- Component: picklist scrolls to top [\#15861](https://github.com/primefaces/primeng/issues/15861)
+- KeyFilter: No longer working on chips component [\#15531](https://github.com/primefaces/primeng/issues/15531)
+- Component: Dropdown Accessibility [\#15155](https://github.com/primefaces/primeng/issues/15155)
+- Dropdown: Placeholder magic cannot be disabled [\#15974](https://github.com/primefaces/primeng/issues/15974)
+- p-dialog focusOnShow="true" Maximum call stack size exceeded [\#15978](https://github.com/primefaces/primeng/issues/15978)
+- Tabview: forward/backward buttons not showing up when dynamic tab panels overflow [\#15680](https://github.com/primefaces/primeng/issues/15680)
+- ButtonComponent: routerLink accessible even when button is disabled [\#15946](https://github.com/primefaces/primeng/issues/15946)
+- Component: p-tree (selection) [\#15761](https://github.com/primefaces/primeng/issues/15761)
+- Dialog: Focus to input element set before transition ends [\#15749](https://github.com/primefaces/primeng/issues/15749)
+- Custom sort in table not working [\#15550](https://github.com/primefaces/primeng/issues/15550)
+- Dialog | strict CSP error [\#15999](https://github.com/primefaces/primeng/issues/15999)
+- Dynamic Dialog: CSP Errors [\#15995](https://github.com/primefaces/primeng/issues/15995)
+- p-image: Fix inline style not compliant with Strict CSP policy [\#15993](https://github.com/primefaces/primeng/issues/15993)
+- CSP errors [\#15965](https://github.com/primefaces/primeng/issues/15965)
+
 ## [17.18.3](https://github.com/primefaces/primeng/tree/17.18.3) (2024-07-04)
 [Full Changelog](https://github.com/primefaces/primeng/compare/17.18.2...17.18.3)
 
@@ -748,6 +771,20 @@
 - TypeError: this.focusedItemInfo.mutate is not a function [\#14119](https://github.com/primefaces/primeng/issues/14119)
 - Upgrade to Angular 17? [\#14063](https://github.com/primefaces/primeng/issues/14063)
 
+## ![LTS](https://www.primefaces.org/wp-content/uploads/2020/01/lts-icon-24.png "PrimeNG LTS") [16.9.12-LTS](https://www.npmjs.com/package/primeng/v/16.9.12-lts) (2024-07-04)
+
+**Fixed bugs:**
+- Splitter | Overflow issue [\#15959](https://github.com/primefaces/primeng/issues/15959)
+- Component: Multiselect - Provide removetokenicon hiding in case option is disabled (reopen) [\#15624](https://github.com/primefaces/primeng/issues/15624)
+- Table | Multiple Selection with dataKey shows wrong selected row count upon CTRL+A [\#15903](https://github.com/primefaces/primeng/issues/15903)
+- Button Tooltip shows up after Dialog opens [\#15933](https://github.com/primefaces/primeng/issues/15933)
+- p-splitter: minSizes not working as expected [\#15943](https://github.com/primefaces/primeng/issues/15943)
+- p-splitter: Resize not working when iFrames are used in panels [\#15942](https://github.com/primefaces/primeng/issues/15942)
+- Component: InputNumber - Control update on strategy is ignored [\#12831](https://github.com/primefaces/primeng/issues/12831)
+- Component: InputNumber unneeded update model on blur [\#15799](https://github.com/primefaces/primeng/issues/15799)
+- p-multiselect: MultiSelectChangeEvent wrong select value [\#15954](https://github.com/primefaces/primeng/issues/15954)
+- Accessibility: Selection in MultiSelect is not accessible for screenreader [\#15930](https://github.com/primefaces/primeng/issues/15930)
+
 ## ![LTS](https://www.primefaces.org/wp-content/uploads/2020/01/lts-icon-24.png "PrimeNG LTS") [16.9.11-LTS](https://www.npmjs.com/package/primeng/v/16.9.11-lts) (2024-06-14)
 
 **Fixed bugs:**
@@ -1379,6 +1416,16 @@
 - Touch Control - Thumbnails selects photo randomly when tapping. [\#12943](https://github.com/primefaces/primeng/issues/12943)
 - Checkbox in p-treeNode always checked when using custom icon [\#12951](https://github.com/primefaces/primeng/issues/12951)
 - ConfirmDialog: Duplicated AcceptIcons [\#13001](https://github.com/primefaces/primeng/issues/13001)
+
+## ![LTS](https://www.primefaces.org/wp-content/uploads/2020/01/lts-icon-24.png "PrimeNG LTS") [15.4.22-LTS](https://www.npmjs.com/package/primeng/v/15.4.22-lts) (2024-07-04)
+
+**Fixed bugs:**
+- Component: Multiselect - Provide removetokenicon hiding in case option is disabled (reopen) [\#15624](https://github.com/primefaces/primeng/issues/15624)
+- Button Tooltip shows up after Dialog opens [\#15933](https://github.com/primefaces/primeng/issues/15933)
+- p-splitter: minSizes not working as expected [\#15943](https://github.com/primefaces/primeng/issues/15943)
+- p-splitter: Resize not working when iFrames are used in panels [\#15942](https://github.com/primefaces/primeng/issues/15942)
+- Component: InputNumber - Control update on strategy is ignored [\#12831](https://github.com/primefaces/primeng/issues/12831)
+- Component: InputNumber unneeded update model on blur [\#15799](https://github.com/primefaces/primeng/issues/15799)
 
 ## ![LTS](https://www.primefaces.org/wp-content/uploads/2020/01/lts-icon-24.png "PrimeNG LTS") [15.4.21-LTS](https://www.npmjs.com/package/primeng/v/15.4.21-lts) (2024-06-14)
 

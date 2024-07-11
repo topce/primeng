@@ -611,6 +611,7 @@ export class ConfirmDialog implements AfterContentInit, OnInit, OnDestroy {
         if (!this.styleElement) {
             this.styleElement = this.document.createElement('style');
             this.styleElement.type = 'text/css';
+            DomHandler.setAttribute(this.styleElement, 'nonce', this.config?.csp()?.nonce);
             this.document.head.appendChild(this.styleElement);
             let innerHTML = '';
             for (let breakpoint in this.breakpoints) {
@@ -624,7 +625,6 @@ export class ConfirmDialog implements AfterContentInit, OnInit, OnDestroy {
             }
 
             this.styleElement.innerHTML = innerHTML;
-            DomHandler.setAttribute(this.styleElement, 'nonce', this.config?.csp()?.nonce);
         }
     }
 
